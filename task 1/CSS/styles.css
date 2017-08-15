@@ -1,0 +1,58 @@
+:root{
+    --fontSize:20px
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    color :slategray;
+    border: 5px double grey;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+}
+.thickborder {
+    border: 4px solid lightgray;
+    box-sizing:border-box;
+    
+}
+blockquote {
+     border-left: 3px solid #766;
+     padding-left: 5px;
+     font-size: var(--fontSize);
+     color: #497;
+     max-width: 250px;
+}
+
+p {
+     text-align: right;
+     font-size: calc(var(--fontSize)-5);
+     color: cornflowerblue;
+     padding: 3px;
+}
+
+div {
+    display:inline-block; 
+    border: 5px solid gray;
+    width: 300px;
+    margin: 100px;
+
+}
+body {
+    background-image: url("../images/computer-wallpaper.jpg");
+    background-color: #cccccc;
+}
+@media screen and (max-width:1024px) {
+    body {
+        background-image: url("../images/phone-wallpaper.jpg");
+        background-color: paleturquoise;
+    }
+    div{
+        margin : 20px;
+        
+
+    }
+}
+   

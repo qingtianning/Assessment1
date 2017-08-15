@@ -1,0 +1,41 @@
+:root{
+    --fontSize:20px
+}
+
+h1{
+    text-align: center;
+    color:slategray;
+    border: 3px double gray;
+}
+
+blockquote {
+     border-left: 3px solid #766;
+     padding-left: 5px;
+     font-size: var(--fontSize);
+     color: #497;
+     max-width: 250px;
+}
+
+.col-sm-4{
+    border:5px solid #000;
+}
+
+p {
+     text-align: right;
+     font-size: calc(var(--fontSize)-5);
+     color: cornflowerblue;
+     padding: 3px;
+}
+
+body {
+    background-image: url("../images/phone-wallpaper.jpg");
+    background-color: #cccccc;
+}
+
+@media screen and (min-width:1024px) {
+    body {
+        background-image: url("../images/computer-wallpaper.jpg");
+        background-color: paleturquoise;
+    }
+}
+   
