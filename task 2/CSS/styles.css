@@ -29,13 +29,34 @@ p {
 
 body {
     background-image: url("../images/phone-wallpaper.jpg");
-    background-color: #cccccc;
 }
-
-@media screen and (min-width:1024px) {
+body {
+    background-image: url("../images/phone-wallpaper.jpg");
+}
+@media screen and (min-width:1441px) and (max-width:1920px) {
     body {
         background-image: url("../images/computer-wallpaper.jpg");
-        background-color: paleturquoise;
+    }
+    .col-sm-4{
+        border: 5px solid gray;
     }
 }
+@media screen and (min-width:768px) and (max-width:1441px) {
+    body {
+        background-image: url("../images/computer-wallpaper.jpg");
+    }
+    .col-sm-4{
+        border: 5px double gray;
+    }
+}
+@media screen and (min-width:0px) and (max-width:768px) {
+    body {
+        background-image: url("../images/phone-wallpaper.jpg");
+    }
+    .col-sm-4{
+        border: 5px solid gray;
+    }
+
+}
+   
    
